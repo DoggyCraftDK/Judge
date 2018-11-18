@@ -1,0 +1,13 @@
+name: Judge
+main: com.dogonfire.judge.Judge
+version: 0.0.2
+description: Judge those players!
+softdepend: [Vault]
+commands:
+  judge:
+    usage: /<command>
+    description: Use this command to judge another player
+permissions:
+  judge.judge:
+    description: Permission to judge a player.
+    default: false
